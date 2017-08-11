@@ -1,0 +1,33 @@
+
+.invisible{
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  height: 35px;
+  width: 20px;
+  border-radius: 15px;
+  margin-left: 0px;
+}
+
+.wing{
+  position: absolute;
+  z-index: 1;
+  background-color: blue;
+  top: 15px;
+  height: 25px;
+  width: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+
+}
+
+.bubble{
+  position: absolute;
+  z-index: 3;
+  background-color: blue;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  margin-left: 15px;
+
+}
