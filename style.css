@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
   margin: 0;
-  font-size: 14px;
+  font-size: 30px;
 }
 
 main{
@@ -13,21 +13,77 @@ height: 600px;
 
 div > p{
   color: white;
-
+  margin-left: 10px;
 }
 
-.grayChatBubble{
+.grayChatBubble1 p{
+  color: black;
+}
+
+
+/*Below is where you reposition the entire chat bubbles*/
+.grayChatBubble1{
   position: relative;
-  top: 20%;
+  top: 25%;
   left: 0%;
 
 }
 
-.blueChatBubble{
+.blueChatBubble1{
   position: relative;
   top: 5%;
   left: 0%;
 }
+
+.blueChatBubble2{
+  position: relative;
+  top: 40%;
+  left: 0%;
+}
+
+.blueChatBubble3{
+  position: relative;
+  top: 65%;
+  left: 0%;
+}
+
+.blueChatBubble4{
+  position: relative;
+  top: 85%;
+  left: 0%;
+}
+
+
+/*Below you will be able to modify the height of the chat bubbles*/
+/*you may have to play with the wings and invisibles*/
+
+
+#bBubble2{
+  height: 120px;
+}
+#bInvisible2{
+  top:72px;
+}
+#bWing2{
+  top: 101px;
+}
+
+#bBubble3{
+
+}
+
+#bBubble4{
+  height: 120px;
+}
+
+#bWing4{
+  top: 98px;
+}
+
+#bInvisible4{
+  top: 68px;
+}
+
 
 .gInvisible{
   top: 25px;
@@ -64,10 +120,13 @@ div > p{
   width: 50%;
   border-radius: 15px;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 
 }
 .bInvisible{
-  top: 25px;
+  top: 39px;
   right: 5px;
   position: absolute;
   z-index: 2;
@@ -79,8 +138,8 @@ div > p{
 }
 
 .bWing{
-  top: 52px;
-  right: 21px;
+  top: 68px;
+  right: 19px;
   position: absolute;
   z-index: 1;
   background-color: blue;
@@ -97,10 +156,13 @@ div > p{
   position: absolute;
   z-index: 3;
   background-color: blue;
-  height: 70px;
+  height: 90px;
   width: 50%;
   border-radius: 15px;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 
 }
 
@@ -127,4 +189,10 @@ div > p{
   padding: 0px;
   padding-left: 20px;
 
+}
+
+
+footer{
+  position: absolute;
+  bottom: 0px;
 }
