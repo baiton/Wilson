@@ -166,33 +166,47 @@ div > p{
 
 }
 
+/*footer*/
 .container{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-self: baseline;
   justify-content: space-between;
-
+  margin-left: 30px;
+  margin-right:30px;
+  
+   height: 60px; 
 }
 
 .inputMessage{
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 50%;
 }
 
 .inputMessage input{
   width: 100%;
-  border: 2px solid grey;
+  border: 2px solid rgba(128, 128, 128, 0.42);
   border-radius: 40px;
   font-size: 40px;
   padding: 0px;
   padding-left: 20px;
+  height:80px;
 
 }
 
+img{
+  height: 65px;
+  width: 87px;
+}
+.inputMessage img{
+  margin-left: -93.5px;
+}
 
 footer{
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
+  width: 100%;
 }
