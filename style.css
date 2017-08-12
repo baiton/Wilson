@@ -5,10 +5,11 @@ body{
 }
 
 main{
+  z-index: 5;
   position: relative;
   top: 0%;
   left: 0%;
-height: 600px;
+height: 70vh;
 }
 
 div > p{
@@ -53,10 +54,22 @@ div > p{
   left: 0%;
 }
 
+.imageBubble{
+  position: relative;
+  top: 109%;
+  left: 0%;
+  height:
+}
 
 /*Below you will be able to modify the height of the chat bubbles*/
 /*you may have to play with the wings and invisibles*/
 
+#imgBubble{
+  height: 250px;
+  background-image: url(https://www.epo.org/learning-events/european-inventor/finalists/2013/wilson/feature/top.jpg?lenya.module=svg&height=283&width=761);
+  background-size: cover;
+
+}
 
 #bBubble2{
   height: 120px;
@@ -175,8 +188,8 @@ div > p{
   justify-content: space-between;
   margin-left: 30px;
   margin-right:30px;
-  
-   height: 60px; 
+
+   height: 60px;
 }
 
 .inputMessage{
@@ -206,7 +219,20 @@ img{
 }
 
 footer{
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
+  display: flex;
+  z-index: 10;
+  position: fixed;
+  background-color: white;
+  width:100%;
+  bottom: 0px;
+  height: 100px;
+}
+
+footer > .container{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    top: 20px;
 }
