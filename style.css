@@ -5,7 +5,6 @@ body {
   font-size: 30px;
 }
 
-
 div>p {
   color: white;
   margin-left: 10px;
@@ -16,6 +15,15 @@ div>p {
 }
 
 /*Lets hold all the containers here*/
+header{
+  z-index: 10;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: 145px;
+  width: 100%;
+}
+
 main {
   z-index: 5;
   position: relative;
@@ -43,41 +51,89 @@ footer>.container {
   top: 20px;
 }
 
-/*Below is where you reposition the entire chat bubbles*/
+/*This is the contents of the Header*/
 
-.grayChatBubble1 {
+
+.statusBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-align{
+
+}
+.r-align{
+}
+.center{
+}
+
+#cell{
+  width: 325px;
+  height: inherit;
+}
+
+#time{
+width: 160px;
+height: inherit;
+}
+
+#battery{
+width: 275px;
+height: inherit;
+}
+
+#backbutton{
+width: 68px;
+height: inherit;
+}
+
+#information{
+width: 87px;
+height: inherit;
+}
+
+
+/*Below is where you reposition the entire chat bubbles*/
+/*This is the contents of main*/
+.blueChatBubble1 {
   position: relative;
-  top: 25%;
+  top: 150px;
   left: 0%;
 }
 
-.blueChatBubble1 {
+.grayChatBubble1 {
   position: relative;
-  top: 5%;
+  top: 270px;
   left: 0%;
 }
 
 .blueChatBubble2 {
   position: relative;
-  top: 40%;
+  top: 365px;
   left: 0%;
 }
 
 .blueChatBubble3 {
   position: relative;
-  top: 65%;
+  top: 515px;
   left: 0%;
 }
 
 .blueChatBubble4 {
   position: relative;
-  top: 85%;
+  top: 635px;
   left: 0%;
 }
 
 .imageBubble {
   position: relative;
-  top: 109%;
+  top: 790px;
   left: 0%;
   height:
 }
@@ -228,7 +284,7 @@ footer>.container {
 }
 
 img {
-  height: 65px;
+  height: inherit;
   width: 87px;
 }
 
